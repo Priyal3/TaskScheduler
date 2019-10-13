@@ -37,7 +37,7 @@ Looking for tasks for time  2019-10-13 15:32:00
 Number of tasks Found:  5
 ##############   Sam  is being Notified #################
 ############## Sending email for  Peter   ################### 
-############## Sending email for  Dwight   ################### 
+############## Sending email for  Dwight   ###################
 ##############   Grey  is being Notified #################
 ############## Sending email for  Mike   ################### 
 Looking for tasks for time  2019-10-13 15:33:00
