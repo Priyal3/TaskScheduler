@@ -1,4 +1,6 @@
 import datetime
+import unittest
+import TaskFactoryTest
 
 from TaskExecutor import TaskExecutor
 from TaskFactory import TaskFactory
@@ -25,7 +27,9 @@ if __name__ == '__main__':
     scheduleTask("NotifyMe", currentTime + 40 * timedelta, "Jim") # t + 80
     scheduleTask("SendEmail", currentTime + 21 * timedelta, "Mike") # t + 42
     # Right Order
-    # Sam -> Bob -> Peter -> Dwight -> Grey -> Mike -> Jim
+    # Sam -> Peter -> Dwight -> Grey -> Mike -> Jim
+    # suite = unittest.TestLoader().loadTestsFromModule(TaskFactoryTest)
+    # unittest.TextTestRunner(verbosity=2).run(suite)
     taskExecutor = TaskExecutor()
     taskExecutor.excecute()
 

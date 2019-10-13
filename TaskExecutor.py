@@ -12,6 +12,7 @@ class TaskExecutor:
         self.taskFactory = TaskFactory()
 
     def excecute(self):
+        print("########## Task Executor Starting #########")
         while len(self.taskFactory.allTasks) > 0:
             currentTime = datetime.datetime.now()
             discard = datetime.timedelta(seconds=currentTime.second,

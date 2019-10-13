@@ -22,7 +22,7 @@ class TaskFactory:
             TaskFactory.instance = self
 
     def getTaskList(self):
-        print(list(self.definedTasks))
+        # print(list(self.definedTasks))
         return self.definedTasks
 
     def getTaskListForTime(self, time):
