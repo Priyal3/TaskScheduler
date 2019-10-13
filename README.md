@@ -21,3 +21,27 @@ TaskFactory
 TaskExecutor.py
   Runs every minute to query the task table from TaskFactory and executes the task in that minute
   
+  
+  
+  ################ Sample Output #################
+
+Adding task  NotifyMe  for time  2019-10-13 15:32:00
+OrderFood  not a valid task
+Adding task  SendEmail  for time  2019-10-13 15:32:00
+Adding task  NotifyMe  for time  2019-10-13 15:32:00
+Adding task  SendEmail  for time  2019-10-13 15:32:00
+Adding task  NotifyMe  for time  2019-10-13 15:33:00
+Adding task  SendEmail  for time  2019-10-13 15:32:00
+########## Task Executor Starting #########
+Looking for tasks for time  2019-10-13 15:32:00
+Number of tasks Found:  5
+##############   Sam  is being Notified #################
+############## Sending email for  Peter   ################### 
+############## Sending email for  Dwight   ################### 
+##############   Grey  is being Notified #################
+############## Sending email for  Mike   ################### 
+Looking for tasks for time  2019-10-13 15:33:00
+Number of tasks Found:  1
+##############   Jim  is being Notified #################
+Executed all tasks
+  
